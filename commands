@@ -1,0 +1,21 @@
+sudo -u postgres psql
+\du
+CREATE USER zzz WITH CREATEDB LOGIN ENCRYPTED PASSWORD 'password';
+CREATE DATABASE Name;
+
+
+Settings in Django 
+      
+'default': {
+'ENGINE': 'django.db.backends.postgresql',
+'NAME': '',
+'USER': '',
+'PASSWORD': '',
+'HOST': 'localhost',
+'PORT': '5432',
+
+
+
+
+
+
